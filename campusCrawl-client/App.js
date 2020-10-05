@@ -3,6 +3,8 @@ import MapView, { Marker } from "react-native-maps";
 import { StyleSheet, Text, View, Dimensions } from "react-native";
 import * as Location from "expo-location";
 
+// testing purpsoes only
+
 export default function App() {
   const [location, setLocation] = useState(null);
   const [errorMsg, setErrorMsg] = useState(null);
